@@ -1,0 +1,22 @@
+
+.mp .minnpost-page-container {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.mp .minnpost-page-container h2 {
+  border-bottom: 1px solid #CFCFCF;
+}
+
+.mp .minnpost-page-container .org {
+  margin-bottom: 3em;
+}
+
+.mp .minnpost-page-container .org .listing {
+  margin-bottom: 1em;
+  font-size: 1.15em;
+}
+
+.mp .minnpost-page-container .org .listing .meta {
+  color: #898989;
+  font-size: .85em;
+}

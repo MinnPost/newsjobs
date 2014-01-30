@@ -1,0 +1,52 @@
+<div class="orgs">
+
+  {{#orgs}}
+    {{>org}}
+  {{/orgs}}
+
+</div>
+
+
+<!-- {{>org}} -->
+<div class="org">
+  <h2>{{ name }}</h2>
+
+  <div class="listing">
+    {{#listings}}
+      {{>listing}}
+    {{/listings}}
+  </div>
+</div>
+<!-- {{/org}} -->
+
+
+<!-- {{>listing}} -->
+<div class="listing">
+  {{#(moreinfo.indexOf('http') === 0)}}
+    <a href="{{ moreinfo }}" target="_blank">{{ jobtitle }}</a>
+  {{/()}}
+  {{^(moreinfo.indexOf('http') === 0)}}
+    {{ jobtitle }}
+  {{/()}}
+
+  in {{ citystate }} {{#country}}({{ country }}){{/country}}.
+  <br>
+  <span class="meta">
+    Last updated
+    {{#(dateentered.isValid())}}
+      {{ dateentered.fromNow() }}.
+    {{/()}}
+    {{#(!dateentered.isValid())}}
+      ??.
+    {{/()}}
+
+    Contact
+    {{#contactemail}}
+      <a href="mailto:{{ contactemail }}" target="_blank">{{ contactperson }}</a>
+    {{/contactemail}}
+    {{^contactemail}}
+      {{ contactperson }}
+    {{/contactemail}}
+  </span>
+</div>
+<!-- {{/listing}} -->

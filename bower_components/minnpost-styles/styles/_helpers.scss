@@ -1,0 +1,90 @@
+/**
+ * Helper classes, repeated from mixins.
+ */
+
+
+// Mixin classes
+.inline-block {
+  @include inline-block();
+}
+
+.clearfix, .cf {
+  @include clearfix();
+}
+
+.tab-focus {
+  @include tab-focus();
+}
+
+.center-block {
+  @include center-block();
+}
+
+.text-overflow {
+  @include text-overflow();
+}
+
+.text-hide {
+  @include text-hide();
+}
+
+.screen-reader-only, .sr-only {
+  @include screen-reader-only();
+}
+
+.hide, .hidden {
+  @include hidden();
+}
+
+.print-visible {
+  @include print-visible();
+}
+
+.print-hidden {
+  @include print-hidden();
+}
+
+// Simple utilities
+.xsmall {
+  font-size: $text-size-small !important;
+}
+
+.small {
+  font-size: $text-size-small !important;
+}
+
+.large {
+  font-size: $text-size-large !important;
+}
+
+.xlarge {
+  font-size: 2em !important;
+}
+
+.xxlarge {
+  font-size: 3em !important;
+}
+
+.xxxlarge {
+  font-size: 4em !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.show {
+  display: block;
+}
+
+.show-inline {
+  display: inline;
+}
+
+.invisible {
+  visibility: hidden;
+}

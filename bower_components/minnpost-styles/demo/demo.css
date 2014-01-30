@@ -1,0 +1,45 @@
+/**
+ * Demo specific styles.
+ */
+
+.mp .section {
+  padding-bottom: 4em;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.mp .example h2 {
+  margin-top: inherit;
+}
+
+.mp .example {
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px 4px 0 0;
+  padding: 2em 1em 1em 1em;
+}
+
+.mp .example-code {
+  background-color: #FAFAFA;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+.example + .example-code {
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  padding: .5em 1em;
+}
+
+.example-code pre {
+  margin-bottom: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.mp .example-grid .row [class^="column-"] {
+  border: 1px dashed #BFBFBF;
+  background-color: #EFEFEF;
+  padding-top: 1em;
+}

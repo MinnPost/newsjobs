@@ -1,0 +1,29 @@
+{
+  "name": "MinnPost Styles",
+  "version": "0.0.1",
+  "homepage": "http://code.minnpost.com/minnpost-styles/",
+  "authors": [
+    "Alan Palazzolo <apalazzolo@minnpost.com>"
+  ],
+  "description": "Style framework for MinnPost interactive projects.",
+  "main": "dist/minnpost-styles.scss",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "holderjs": "~2.2.0",
+    "requirejs": "~2.1.10",
+    "jquery": "1.10",
+    "highcharts": "~3.0.7",
+    "underscore": "~1.5.2",
+    "leaflet": "~0.7.1"
+  },
+  "dependencies": {
+    "datatables": "~1.9.4"
+  }
+}
