@@ -29,7 +29,6 @@ require(['underscore', 'jquery', 'moment', 'tabletop', 'Ractive', 'Ractive-event
 
   // Once data is ready
   function dataReady(data) {
-    console.log(data);
 
     var ractive = new Ractive({
       el: '.app-container',
